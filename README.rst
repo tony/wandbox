@@ -35,13 +35,15 @@ jBatch
 
 jBatch developer, Boris Schaeling says
 
-  jBatch_ comes with a ``wandbox`` command to access the API more easily. To compile and run a Python program with Wandbox and append the program's output to a webpage, use::
+jBatch_ comes with a ``wandbox`` command to access the API more easily. To compile and run a Python program with Wandbox and append the program's output to a webpage, use:
+  
+.. code-block:: html
 
     <script type="text/jbatch">
       wandbox run --compiler python-2.7.3 --code 'print("Hello, world!")' | appendTo body
     </script>
   
-  See CodePen_ for Wandbox with jBatch in action.
+See CodePen_ for Wandbox with jBatch in action.
 
 .. _jBatch: http://iomash.com/
 .. _CodePen: http://codepen.io/iomash/pen/KwBEJG
